@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.sub-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.container {
+    background: #C3DBD9;
+    padding: 50px 100px;
+    height: 100vh;
+    width: 100%;
+}
+
+.profile-container, .medical-container {
+    padding: 20px;
+    background-color: #C8F2EF;
+    border-radius: 5px;
+    height: 330px;
+}
+
+.profile-container {
+    flex-basis: 35%;
+    
+}
+
+.profile-sec {
+    align-items: flex-start;
+}
+
+.users {
+    margin-bottom: 15px;
+    align-items: flex-start;
+    justify-content: unset;
+}
+
+.medical-container {
+    flex-basis: 62%;/* From https://css.glass */
+    /* From https://css.glass */
+background: rgba(211, 40, 50, 0.11);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.8px);
+-webkit-backdrop-filter: blur(3.8px);
+}
+
+.medical-detail {
+    align-items: flex-start;
+}
+
+.sec {
+    margin-bottom: 20px;
+}
+
